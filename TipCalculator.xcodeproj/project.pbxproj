@@ -15,6 +15,8 @@
 		24DFB78325BBD5F700899E2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DFB75825BBD5F600899E2A /* ContentView.swift */; };
 		24DFB78425BBD5F700899E2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DFB75925BBD5F700899E2A /* Assets.xcassets */; };
 		24DFB78525BBD5F700899E2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DFB75925BBD5F700899E2A /* Assets.xcassets */; };
+		24DFB7A425BBE3E000899E2A /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DFB7A325BBE3E000899E2A /* CurrencyTextField.swift */; };
+		24DFB7A525BBE3E000899E2A /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DFB7A325BBE3E000899E2A /* CurrencyTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		24DFB77925BBD5F700899E2A /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DFB77D25BBD5F700899E2A /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		24DFB77F25BBD5F700899E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24DFB7A325BBE3E000899E2A /* CurrencyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 			children = (
 				24DFB75725BBD5F600899E2A /* TipCalculatorApp.swift */,
 				24DFB75825BBD5F600899E2A /* ContentView.swift */,
+				24DFB7A325BBE3E000899E2A /* CurrencyTextField.swift */,
 				24DFB75925BBD5F700899E2A /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -308,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24DFB7A425BBE3E000899E2A /* CurrencyTextField.swift in Sources */,
 				24DFB78225BBD5F700899E2A /* ContentView.swift in Sources */,
 				24DFB78025BBD5F700899E2A /* TipCalculatorApp.swift in Sources */,
 			);
@@ -317,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24DFB7A525BBE3E000899E2A /* CurrencyTextField.swift in Sources */,
 				24DFB78325BBD5F700899E2A /* ContentView.swift in Sources */,
 				24DFB78125BBD5F700899E2A /* TipCalculatorApp.swift in Sources */,
 			);
